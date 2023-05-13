@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>geekHeaven</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav class="navbar" >
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="./index.html" class="nav-link-head"> 
+						<span class="nav-head-txt"> GH </span> 
+						<img class="gh" src="reqimg/geekHeaven-dark.png"/>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./index.html" class="nav-link"> 
+						<img src="reqimg/home-light.png"/>
+						<span class="nav-txt"> HOME </span> 
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./geek.html" class="nav-link"> 
+						<img src="reqimg/wall-light.png"/>
+						<span class="nav-txt"> GEEKWORLD </span> 
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./about.html" class="nav-link"> 
+						<img src="reqimg/about-light.png"/>
+						<span class="nav-txt"> ABOUT </span> 
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="./contact.html" class="nav-link"> 
+						<img src="reqimg/contact-light.png"/>
+						<span class="nav-txt"> CONTACT</span> 
+					</a>
+				</li>
+
+			</ul>
+	</nav>
+
+
+	<nav-home class="home-navclass">
+		<ul>
+			<li class= "active"> <a href = "./wall.html"> GALLERY </a> </li>
+			<li class= "active"> <a href = "./post.html"> POST </a> </li>
+		</ul>
+	</nav-home>
+
+	<main>
+		<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/ichigo.png" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Ichigo Kurosaki</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/lelouch.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Lelouch Vi Britania</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/miles.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Miles Morales</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/hinata.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Hinata Hyuga</p>
+    </div>
+  </div>
+</div>
+ 
+		<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/ichigo.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Ichigo Kurosaki</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/kakegurui.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Jabami Yumeko</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/power.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Power</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/yor.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Yor Forger</p>
+    </div>
+  </div>
+</div>
+
+		<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/luffy.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Monkey D Luffy</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-image">
+      <img src="reqimg/mikasa.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Mikasa</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/kate.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Kate Bishop</p>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-image">
+      <img src="reqimg/pieck.jpg" alt="Card Image">
+    </div>
+    <div class="card-text">
+      <p>Pieck Finger</p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p><img class="logo" src="reqimg/geekHeaven-dark.png"/></p>
+  <ul>
+    <li><a class="foot" href="./about.html">About</a></li>
+    <li><a class="foot" href="./contact.html">Contact</a></li>
+    <li><a class="foot" href="./privacy.html">Privacy Policy</a></li>
+  </ul>
+</footer>
+</main>
+</body>
+</html>
+
+
+<style type="text/css">
+
+ .card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 10px;
+  padding: 0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  max-height: 300px;
+  overflow: hidden;
+  background-color: #191C29;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 200px;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+.card-image img:hover {
+  transform: scale(1.08);
+}
+
+.card-text {
+	color: white;
+}
+
+	nav-home {
+
+	    display: flex;
+	    justify-content: center; 
+	    background-color: #1A1C24;
+	}
+
+	nav-home .home-navclass{
+ 		
+	}
+ 
+	  nav-home ul{
+	  	margin: 0;
+	  	padding: 0;
+	    list-style: none;
+	    height: 41px;
+	  }
+	  .active{
+	  	margin-left: 30px;
+	  }
+	  nav-home li{
+	    float: left;
+	    font-family: Corbel Light;
+
+	  }
+
+
+
+	  nav-home li a{
+	    color: white;
+	    font-size: 25px;
+	    display: block;
+	    text-decoration: none;
+	    padding: 5px;
+	    text-align: center;
+	    background-color: 1A1C24;
+	  }
+
+
+	  nav-home li a:hover{
+	    color: #3D5656;
+	    background-color: white;
+	  }
+
+ 
+h2{
+	color: white;
+}
+p{
+	color: white;
+}
+ 
+	footer {
+  background-color: #293044;
+  color: white;
+  padding: 20px;
+}
+
+.footer{
+	  text-align: center;
+}
+
+.foot{
+	font-size: 18px;
+}
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+  </style>
